@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="searchresult.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm sticky-top  ">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+            <!-- Logo Image -->
+            <img src="logo_symbol.PNG" width="50" alt="" class="d-inline-block align-left mr-2">
+            <!-- Logo Text -->
+            <span class="text-uppercase font-weight-bold">EdXchange</span>
+        </a>
+
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Questions</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">You Asked</a>
+                        <a class="dropdown-item" href="#">You Answered</a>
+                        <a class="dropdown-item" href="#">New Questions</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Badges</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Communities</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Subscribed</a>
+                        <a class="dropdown-item" href="#">Create New</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">My Profile</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Mission Statement-->
+<div style="background: url(collaborate_choice2.PNG)" class="jumbotron bg-cover text-white">
+    <section class="py-5">
+        <div class="container py-5 text-center">
+            <h1 class="display-4 font-weight-bold">Collaborate and Grow</h1>
+            <a href="#" role="button" class="btn btn-primary btn-lg  px-5">Post Question</a>
+        </div>
+    </section>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div>
+                    <a class="nav-link nav-icon rounded-circle nav-link-faded mr-3 d-md-none" href="#" data-toggle="inner-sidebar"><i class="material-icons">arrow_forward_ios</i></a>
+                    <select class="custom-select custom-select-sm ">
+                        <option selected="">Latest</option>
+                        <option value="1">Popular</option>
+                        <option value="3">Solved</option>
+                        <option value="3">Unsolved</option>
+                        <option value="3">No Replies Yet</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-3 p-0 mb-3"><input type="text" class="form-control" placeholder="Search...">
+                </div>
+            </div> </div> </div>
+
+    <div class="row">
+        <!-- Search Results-->
+        <div class="col-md-9">
+            <div class="card mb-3">
+                <div class="card-header pl-0 pr-0">
+                    <div class="row no-gutters w-100 align-items-center">
+                        <div class="col ml-3">
+                            <div class="align-items-center">Questions</div>
+                        </div>
+                        <div class="col-4 text-muted">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">Replies</div>
+                                <div class="col-8">Last update</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i change
+                            the username?</a>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Neon Mandela</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Tim cook</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How to change the
+                            theme to dark mode?</a> <span
+                                class="badge badge-success align-text-bottom ml-1">Solved</span>
+                            <div class="text-muted small mt-1">Started 5 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Allize Rome</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">43</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583319/AAA/3.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Steve smith</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">Is it possible to
+                            get the refund of the product i purhcased today?</a> <span
+                                class="badge badge-default align-text-bottom ml-1">Locked</span>
+                            <div class="text-muted small mt-1">Started 21 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Kane William</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">42</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583336/AAA/4.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">2 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Brethwett sonm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">Do you have
+                            android application for this tool?</a>
+                            <div class="text-muted small mt-1">Started 56 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Glen Maxwell</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">632</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">11 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Neil patels</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i
+                            transfer my fund to my friend</a> <span
+                                class="badge badge-secondary align-text-bottom ml-1">Closed</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Marry Tom</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">53</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583336/AAA/4.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Tibok tom</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i delete
+                            my account?</a> <span class="badge badge-danger align-text-bottom ml-1">Hot!</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Bob bulmer</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Ross taylor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i delete
+                            my account?</a> <span class="badge badge-danger align-text-bottom ml-1">Hot!</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Bob bulmer</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Ross taylor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i delete
+                            my account?</a> <span class="badge badge-danger align-text-bottom ml-1">Hot!</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Bob bulmer</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Ross taylor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i delete
+                            my account?</a> <span class="badge badge-danger align-text-bottom ml-1">Hot!</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Bob bulmer</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Ross taylor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i delete
+                            my account?</a> <span class="badge badge-danger align-text-bottom ml-1">Hot!</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Bob bulmer</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Ross taylor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="card-body py-3">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col"><a href="javascript:void(0)" class="text-big" data-abc="true">How can i delete
+                            my account?</a> <span class="badge badge-danger align-text-bottom ml-1">Hot!</span>
+                            <div class="text-muted small mt-1">Started 25 days ago &nbsp;·&nbsp; <a
+                                    href="javascript:void(0)" class="text-muted" data-abc="true">Bob bulmer</a></div>
+                        </div>
+                        <div class="d-none d-md-block col-4">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-4">12</div>
+                                <div class="media col-8 align-items-center"><img
+                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583246/AAA/2.jpg"
+                                        alt="" class="d-block ui-w-30 rounded-circle">
+                                    <div class="media-body flex-truncate ml-2">
+                                        <div class="line-height-1 text-truncate">1 day ago</div>
+                                        <a href="javascript:void(0)" class="text-muted small text-truncate"
+                                           data-abc="true">by Ross taylor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <ul class="pagination mb-5 justify-content-center ">
+                    <li class="page-item disabled"><a class="page-link" href="javascript:void(0)" data-abc="true">«</a></li>
+                    <li class="page-item active"><a class="page-link" href="javascript:void(0)" data-abc="true">1</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0)" data-abc="true">2</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0)" data-abc="true">3</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0)" data-abc="true">»</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Side Bar-->
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Questions
+                            <span class="badge badge-success badge-pill">12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Answers
+                            <span class="badge badge-danger badge-pill">50</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Users
+                            <span class="badge badge-warning badge-pill">99</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>&nbsp;&nbsp;</div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Top Members</h4>
+                    <div class="container height-100 d-flex justify-content-center ">
+                        <div class="row">
+                            <div class="column px-md-4">
+                                <div class="py-4 p-2">
+                                    <div><img
+                                            src="Girl1.png"
+                                            class="rounded" width="60"></div>
+                                    <div class="mt-3 d-flex flex-row justify-content-center">
+                                        <h7>Matt Damon</h7>
+                                        <span class="dots"><i class="fa fa-check"></i></span>
+                                    </div>
+                                    <span>Explainer</span>
+                                    <div class="mt-2">
+                                        <button class="btn btn-danger btn-sm">Points</button>
+                                        <button class="btn btn-outline-secondary btn-sm"><i class="fa fa-users"></i> 451
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="py-4 p-2">
+                                    <div><img src="img.png" class="rounded" width="60"></div>
+                                    <div class="mt-3 d-flex flex-row justify-content-center">
+                                        <h7>Alice Thompson</h7>
+                                        <span class="dots"><i class="fa fa-check"></i></span>
+                                    </div>
+                                    <span>Explainer</span>
+                                    <div class="mt-2">
+                                        <button class="btn btn-danger btn-sm">Points</button>
+                                        <button class="btn btn-outline-secondary btn-sm"><i class="fa fa-users"></i>300
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column px-md-4">
+                                <div class="py-4 p-2">
+                                    <div><img src="img_1.png" class="rounded" width="60"></div>
+                                    <div class="mt-3 d-flex flex-row justify-content-center">
+                                        <h7>Alice Thompson</h7>
+                                        <span class="dots"><i class="fa fa-check"></i></span>
+                                    </div>
+                                    <span>Explainer</span>
+                                    <div class="mt-2">
+                                        <button class="btn btn-danger btn-sm">Points</button>
+                                        <button class="btn btn-outline-secondary btn-sm"><i class="fa fa-users"></i>300
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="py-4">
+                                    <div><img
+                                            src="img_2.png"
+                                            class="rounded" width="60"></div>
+                                    <div class="mt-3 d-flex flex-row justify-content-center">
+                                        <h7>Alice Thompson</h7>
+                                        <span class="dots"><i class="fa fa-check"></i></span>
+                                    </div>
+                                    <span>Explainer</span>
+                                    <div class="mt-2">
+                                        <button class="btn btn-danger btn-sm">Points</button>
+                                        <button class="btn btn-outline-secondary btn-sm"><i class="fa fa-users"></i>300
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+            </div>
+            <div>&nbsp;&nbsp;</div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tags</h5>
+                    <div class="row">
+                        <div class="column px-md-3">
+                            <h5><span class="badge badge-pill badge-secondary">Java</span></h5>
+                        </div>
+                        <div class="column px-md-3">
+                            <h5><span class="badge badge-pill badge-secondary">.Net</span></h5>
+                        </div>
+                        <div class="column px-md-3">
+                            <h5><span class="badge badge-pill badge-secondary">Javascript</span></h5>
+                        </div>
+                        <div class="column px-md-3">
+                            <h5><span class="badge badge-pill badge-secondary">Spring Boot</span></h5>
+                        </div>
+                        <div class="column px-md-3">
+                            <h5><span class="badge badge-pill badge-secondary">C#</span></h5>
+                        </div>
+                        <div class="column px-md-3">
+                            <h5><span class="badge badge-pill badge-secondary">Hibernate</span></h5>
+                        </div>
+                        <div class="column px-md-3">
+                            <h5><sspan class="badge badge-pill badge-secondary">Oracle</sspan></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+

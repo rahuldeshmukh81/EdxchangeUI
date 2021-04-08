@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> EDXCHANGE </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="banner.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">
+        <img src="logo_symbol.PNG" width="30">
+        <span class=" font-weight-bold">EDXCHANGE
+    </span>
+    </a>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Questions</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">You Asked</a>
+                    <a class="dropdown-item" href="#">You Answered</a>
+                    <a class="dropdown-item" href="#">New Questions</a>
+                </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Badges</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Communities</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Subscribed</a>
+                    <a class="dropdown-item" href="#">Create New</a>
+                </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">My Profile</a></li>
+        </ul>
+    </div>
+    <img src="img.png" class="rounded-circle" alt="Cinque Terre" width="40" height="40">
+</nav>
+<!--
+<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm sticky-top  ">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+
+            <img src="logo_symbol.PNG" width="50" alt="" class="d-inline-block align-left mr-2">
+            <span class="text-uppercase font-weight-bold">EdXchange</span>
+        </a>
+
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Questions</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">You Asked</a>
+                        <a class="dropdown-item" href="#">You Answered</a>
+                        <a class="dropdown-item" href="#">New Questions</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Badges</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Communities</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Subscribed</a>
+                        <a class="dropdown-item" href="#">Create New</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">My Profile</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="container w-50">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="input-group" id="adv-search">
+                    <input type="text" class="form-control" placeholder="Search for snippets" />
+                    <div class="input-group-btn">
+                        <div class="btn-group" role="group">
+                            <div class="dropdown dropdown-lg">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label for="filter">Filter by</label>
+                                            <select class="form-control w-100">
+                                                <option value="0" selected>All Snippets</option>
+                                                <option value="1">Featured</option>
+                                                <option value="2">Most popular</option>
+                                                <option value="3">Top rated</option>
+                                                <option value="4">Most commented</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contain">Author</label>
+                                            <input class="form-control w-100" type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contain">Contains the words</label>
+                                            <input class="form-control w-100" type="text" />
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>-->
+
+<!-- Mission Statement-->
+<div style="background: url(collaborate_choice2.PNG)" class="jumbotron bg-cover text-white">
+    <section class="py-5">
+        <div class="container py-5 text-center">
+            <h1 class="display-4 font-weight-bold">Collaborate and Grow</h1>
+            <a href="#" role="button" class="btn btn-primary btn-lg  px-5">Post Question</a>
+        </div>
+    </section>
+</div>
