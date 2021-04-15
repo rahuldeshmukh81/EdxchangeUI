@@ -1,0 +1,106 @@
+.question-desc pre,
+.answer-body pre {
+    padding: 1.5rem !important;
+    border: 1px solid #cccccc91;
+    background-color: #f8f9fa!important;
+    border-radius: 3px;
+}
+.answer-body pre {
+   display: inline-block;
+   width: auto;
+}
+
+.que-tags .badge {
+    margin-right: 0.5rem;
+    padding: 0.4rem;
+    margin-top: 0.7rem;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #9a6e3a;
+    background: none !important;
+}
+
+.mark-as-correct-btn {
+    padding: 0.1rem 0.5em;
+    font-size: 0.84rem;
+}
+
+.like-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0.2rem 0.5rem;
+    float: right;
+}
+
+.like-wrapper:hover {
+    background-color: #cccccc78;
+}
+
+.post-ans-wrapper .tox-tinymce {
+    margin-left: 0.8rem;
+    margin-right: 1rem;
+}
+
+.post-ans-btn {
+    padding: 0.4rem 9rem;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+}
+
+.profile-wrapper {
+    height: 30%;
+    background-image: url(../images/profile/profileback.jpg);
+    margin-right: 0.5rem;
+    padding-top: 2rem;
+}
+
+.profile-name {
+    color: white;
+    text-align: center;
+    margin-top: 0.9rem;
+    font-weight: bold;
+}
+
+.profile-designation {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0rem;
+    font-style: italic;
+}
+
+.profile-body {
+    margin-right: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #cccc;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.attachment-file {
+    width: 50%;
+    background-color: #f8f9fa!important;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #cccccc91;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.upload-wrapper {
+    padding-left: 1.7rem;
+}
+
+#userSkills .badge {
+    margin-right: 0.4rem;
+}
