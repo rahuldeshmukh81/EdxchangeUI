@@ -34,6 +34,9 @@
   width: 100%; /* Full width */
 }
 
+nav{
+  z-index: 999;
+}
 
 .bg-cover {
     background-size: cover !important;

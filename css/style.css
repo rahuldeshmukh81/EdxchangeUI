@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.3px;
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 0.3px !important;
 }
 
 .font-09 {
@@ -9,6 +9,10 @@ body {
 
 .font-08 {
     font-size: 0.8rem;
+}
+
+.font-074 {
+    font-size: 0.74rem;
 }
 
 .w-80 {
@@ -34,4 +38,19 @@ body {
 .tox-tinymce {
     border-radius: 3px !important;
     border: 1px solid #cccc !important;
+}
+
+.center-load-spinner::before {
+    content: " ";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 999999;
+    background-image: url('../images/loading.svg');
+    background-position-x: 50%;
+    background-position-y: 50%;
+    position: fixed !important;
+    background-repeat: no-repeat;
 }
