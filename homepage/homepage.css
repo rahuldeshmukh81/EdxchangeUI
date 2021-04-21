@@ -52,7 +52,8 @@ body {
     border-color: #3f6ad8
 }
 
-.form-control {
+
+/* .form-control {
     display: block;
     width: 100%;
     height: calc(2.25rem + 2px);
@@ -66,7 +67,7 @@ body {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
-}
+} */
 
 .card-body {
     flex: 1 1 auto;
@@ -134,7 +135,8 @@ a {
     color: #fff;
     padding: 5px 30px 5px 5px;
     border-radius: 2px;
-    margin: 0 5px 5px 0
+    margin: 0 5px 5px 0;
+    font-size: 0.75rem;
 }
 
 .tagsinput .tag .tag-remove {
@@ -225,4 +227,51 @@ a {
 .more-filter-btn {
     background-color: #cccccc54;
     border: 1px solid #cccccc54;
+}
+
+.top-member-btn {
+    font-size: 0.7rem !important;
+    letter-spacing: 0.4px !important;
+}
+
+.top-badge .badge {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.72rem;
+    margin-right: 0.15rem;
+    margin-top: 0.35rem;
+}
+
+.search-tbl-head {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.dashboard-unit {
+    border: 1px solid #cccccc73;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.dashboard-unit-left-border {
+    border-left: 3px solid #2d6ff7;
+}
+
+.dashboard-unit-right-border {
+    border-right: 3px solid #2d6ff7;
+}
+
+.dropdown-filter label {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+#adv-search {
+    margin-left: 15% !important;
+    width: 54% !important;
+}
+
+.qustner-user-detail {
+    font-size: 0.72rem;
+    margin-top: 0.5rem !important;
 }
