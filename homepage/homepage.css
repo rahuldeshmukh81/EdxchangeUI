@@ -1,12 +1,13 @@
 body {
-    margin: 0;
+    /* margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: .88rem;
     font-weight: 400;
     line-height: 1.5;
+    
+    text-align: left; */
+    background-color: #eef1f3;
     color: #495057;
-    text-align: left;
-    background-color: #eef1f3
 }
 
 .mt-100 {
@@ -236,9 +237,10 @@ a {
 
 .top-badge .badge {
     padding: 0.3rem 0.5rem;
-    font-size: 0.72rem;
+    font-size: 0.71rem;
     margin-right: 0.15rem;
     margin-top: 0.35rem;
+    letter-spacing: 0.5px;
 }
 
 .search-tbl-head {
@@ -274,4 +276,17 @@ a {
 .qustner-user-detail {
     font-size: 0.72rem;
     margin-top: 0.5rem !important;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 520px;
+    }
 }

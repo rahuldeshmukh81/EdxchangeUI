@@ -6,6 +6,11 @@ input[type="file"] {
     outline: none !important;
 }
 
+.usrs-tags-divider {
+    border: 1px solid #cccccc6b;
+    margin-top: 1rem;
+}
+
 
 /* .form-group.required label:after {
     content: "*";
