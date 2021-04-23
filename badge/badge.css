@@ -1,0 +1,68 @@
+body {
+    background-color: #eef1f3;
+    color: #495057;
+}
+
+.card {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    border-width: 0;
+    transition: all .2s
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: .625rem;
+    height: 3.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(26, 54, 126, 0.125)
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.point-wrapper {
+    border: 1px solid #cccccca6;
+    padding: 1rem;
+    border-radius: 3px;
+    width: 23%;
+    margin-top: 0.5rem;
+}
+
+.point-wrap-icon {
+    color: #ff6935;
+    font-size: 1.3rem;
+}
+
+.point-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.point-desc {
+    font-size: 0.825rem;
+    margin-top: 0.5rem;
+}
+
+.point-badge-divider {
+    border-top: 1px solid #cccccc91;
+    margin: 1rem 0rem;
+}
+
+.badge-wrapper {
+    border: 1px solid #cccccca6;
+    padding: 1rem 0rem;
+}
+
+.badge-point-wrapper {
+    margin-top: 0.6rem;
+}
+
+.badge-desc {
+    font-size: 0.843rem;
+}

@@ -230,37 +230,9 @@ a {
     border: 1px solid #cccccc54;
 }
 
-.top-member-btn {
-    font-size: 0.7rem !important;
-    letter-spacing: 0.4px !important;
-}
-
-.top-badge .badge {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.71rem;
-    margin-right: 0.15rem;
-    margin-top: 0.35rem;
-    letter-spacing: 0.5px;
-}
-
 .search-tbl-head {
     font-weight: bold;
     font-size: 1rem;
-}
-
-.dashboard-unit {
-    border: 1px solid #cccccc73;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.dashboard-unit-left-border {
-    border-left: 3px solid #2d6ff7;
-}
-
-.dashboard-unit-right-border {
-    border-right: 3px solid #2d6ff7;
 }
 
 .dropdown-filter label {
