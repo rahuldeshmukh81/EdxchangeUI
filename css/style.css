@@ -86,3 +86,11 @@ body {
     position: fixed !important;
     background-repeat: no-repeat;
 }
+
+.mphasis-logo {
+    width: 13%;
+}
+
+.pagination-wrapp {
+    z-index: 0;
+}
